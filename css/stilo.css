@@ -1,0 +1,87 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+.container {
+  color: hsl(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  width: 920px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.6em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.car {
+  display: inline-block;
+  width: 33%;
+  height: 500px;
+  box-sizing: border-box;
+  padding: 30px 50px;
+  line-height: 25px;
+}
+.icon {
+  text-align: right;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+.sedan button {
+  color: hsl(31, 77%, 52%);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.suv button {
+  color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+button {
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+  padding: 15px 10px;
+  margin-top: 80px;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1em;
+}
+span {
+  margin: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 375px) {
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+  }
+  .car {
+    display: block;
+  }
+  .sedan {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .luxury {
+    border-radius: 0px 0px 10px 10px;
+  }
+  .button {
+    margin-top: 60px;
+  }
+}
