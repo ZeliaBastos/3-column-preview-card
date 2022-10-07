@@ -9,7 +9,7 @@ Thanks for checking out this front-end coding challenge.
 ### Links
 
 - Solution URL: https://github.com/ZeliaBastos/3-column-preview-card
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://zeliabastos.github.io/3-column-preview-card/
 
 ## My process
 
